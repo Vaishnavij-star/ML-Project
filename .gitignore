@@ -1,2 +1,22 @@
-venv/ 
-__pycache__/ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+ENV/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data and artifacts
+artifacts/
+logs/
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
