@@ -3,19 +3,21 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.env
-*.venv
+*.pyc
+
+# Virtual Environment
 venv/
 ENV/
 env/
 
-# Jupyter Notebooks
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Data and artifacts
-artifacts/
+# Logs
 logs/
-*.csv
+
+# Artifacts (processed data, models)
+artifacts/
 
 # OS files
 .DS_Store
