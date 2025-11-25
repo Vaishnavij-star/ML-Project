@@ -5,7 +5,7 @@ import sys
 # Add src folder to the Python path
 sys.path.append(os.path.abspath("src"))
 
-from components.data.data_ingestion import DataIngestion
+from pipeline.data_ingestion import DataIngestion
 
 # File paths
 input_csv = "src/components/data/stud.csv"
@@ -21,7 +21,7 @@ print(f"Dataset copied/renamed to: {raw_csv}")
 # Create ingestion object (ONLY input_path)
 ingestion = DataIngestion(input_path=raw_csv)
 
-# Start ingestion (correct function name)
+# Start ingestion
 result = ingestion.initiate_data_ingestion()
 
 print("✔ Data ingestion completed!")
